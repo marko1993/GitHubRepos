@@ -1,0 +1,40 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.9)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - Swinject (2.8.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - RxCocoa (~> 5.0)
+  - RxSwift (~> 5.0)
+  - SDWebImage (~> 4.4.2)
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - Swinject
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+
+PODFILE CHECKSUM: 9d589d16dead44b3575b355df5ac9418ec721bdd
+
+COCOAPODS: 1.8.4

@@ -8,6 +8,20 @@
 import Foundation
 
 struct Repo: Codable {
+    init() {
+        self.id = 0
+        self.name = nil
+        self.owner = Owner()
+        self.description = nil
+        self.createdAt = nil
+        self.updatedAt = nil
+        self.language = nil
+        self.forks = nil
+        self.watchers = nil
+        self.htmlUrl = nil
+        self.openIssuesCount = nil
+    }
+    
     let id: Int
     let name: String?
     var owner: Owner

@@ -28,6 +28,11 @@ final class AppAssembly: Assembly {
             repository.networkService = container.resolve(NetworkService.self)
             return repository
         }.inObjectScope(.container)
+        
+        container.register(RepositoryProtocol.self, name: RepositoryType.mock.name) { r in
+            let repository = MockRepository()
+            return repository
+        }.inObjectScope(.container)
     }
     
     private func assembleReposViewController(_ container: Container) {

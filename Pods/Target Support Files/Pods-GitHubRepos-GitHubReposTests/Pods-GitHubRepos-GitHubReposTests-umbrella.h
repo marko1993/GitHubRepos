@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_GitHubReposTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_GitHubReposTestsVersionString[];
+FOUNDATION_EXPORT double Pods_GitHubRepos_GitHubReposTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_GitHubRepos_GitHubReposTestsVersionString[];
 

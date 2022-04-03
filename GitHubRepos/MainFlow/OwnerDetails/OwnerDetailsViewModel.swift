@@ -35,4 +35,8 @@ class OwnerDetailsViewModel: BaseViewModel {
             }
         })
     }
+    
+    func getOwnerName() -> String? {
+        return ownerRelay.value.name
+    }
 }

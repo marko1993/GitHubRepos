@@ -12,7 +12,9 @@ target 'GitHubRepos' do
     pod 'Swinject'
 
   target 'GitHubReposTests' do
-    inherit! :search_paths
+    pod 'Swinject'
+      pod 'RxSwift', '~> 5.0'
+      pod 'RxCocoa', '~> 5.0'
     
   end
 
